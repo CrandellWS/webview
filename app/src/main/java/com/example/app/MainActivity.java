@@ -35,8 +35,6 @@ public class MainActivity extends Activity {
         // Stop local links and redirects from opening in browser instead of WebView
         mWebView.setWebViewClient(new MyAppWebViewClient());
          mWebView.loadUrl("https://www.youniqueproducts.com/MashellnWonderland");
-
-
         // Use local resource
         // mWebView.loadUrl("file:///android_asset/www/index.html");
     }
