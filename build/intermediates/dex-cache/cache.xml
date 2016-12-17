@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/candellws/Documents/webview-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3addabb8f6fd342c5342937a17adab54a4312d20">
+        <dex dex="/home/candellws/Documents/webview-master/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_79613ba1be035c48789fe659303f91819cd8dcb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/candellws/Documents/webview-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="243c5cf46ad3f8a7c231b991ed485826478aeedd">
+        <dex dex="/home/candellws/Documents/webview-master/app/build/intermediates/pre-dexed/debug/instant-run_27b8cc61b28f6541c89c144ec0cc68deefc5b761.jar" />
+    </item>
+
+</items>
