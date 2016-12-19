@@ -5,7 +5,7 @@ android {
     buildToolsVersion '22.0.1'
 
     defaultConfig {
-        applicationId "com.example.helloworld"
+        applicationId "ws.crandell.younique.MashellnWonderland"
         minSdkVersion 15
         targetSdkVersion 15
         versionCode 1

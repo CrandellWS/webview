@@ -1,4 +1,4 @@
-package com.example.app;
+package ws.crandell.webview;
 
 import android.app.Activity;
 import android.content.Context;
@@ -34,9 +34,13 @@ public class MainActivity extends Activity {
 //         mWebView.loadUrl("http://example.com");
         // Stop local links and redirects from opening in browser instead of WebView
         mWebView.setWebViewClient(new MyAppWebViewClient());
-         mWebView.loadUrl("https://www.youniqueproducts.com/MashellnWonderland");
-        // Use local resource
-        // mWebView.loadUrl("file:///android_asset/www/index.html");
+
+        if(isNetworkAvailable()) {
+            mWebView.loadUrl("https://www.youniqueproducts.com/MashellnWonderland");
+        } else {
+            // Use local resource
+             mWebView.loadUrl("file:///android_asset/www/index.html");
+        }
     }
 
     private boolean isNetworkAvailable() {

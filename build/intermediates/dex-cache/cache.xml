@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="3addabb8f6fd342c5342937a17adab54a4312d20">
+        sha1="bd5d583ab6468da30421f7a7a40d9c8f421daadb">
         <dex dex="/home/candellws/Documents/webview-master/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_79613ba1be035c48789fe659303f91819cd8dcb7.jar" />
     </item>
     <item
